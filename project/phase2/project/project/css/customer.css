@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /*white-space: nowrap;*/
+
+}
+
+body {
+    background-color: beige;
+}
+
+/*menu*/
+li, .menubtn, .log, .band,p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #24252A;
+}
+p{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.band {
+
+    font-size: 25px;
+    padding: 10px 5%;
+}
+.position{
+    margin-right: auto;
+    display: flex;
+
+}
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.log {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.log:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+/*title*/
+.title {
+    margin-top: 10px;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    padding: 5px 5%;
+}
+
+
+/*table*/
+.scroll{
+    height:400px;
+    overflow:auto;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 3px groove #009999;
+    color: #009999;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+
+}
+
+th {
+    background-color: #009999;
+    color: white;
+    white-space: nowrap;
+    border: 2px groove #009999;
+}
+
+td {
+    border: 1px groove skyblue;
+}
+
+a{
+    color: #191919;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+input[type=text], input[type=email]{
+    width: 100%;
+    text-align: center ;
+
+}
+
+/*insert button */
+.button-11 {
+    margin-bottom: 10px;
+    white-space: nowrap;
+    margin-left: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    color: #3D3D3D;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-11:focus {
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+.btn {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 90px;
+}
+
+.btn:hover {
+    background-color: #f7fafa;
+}
+
+.btn:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}

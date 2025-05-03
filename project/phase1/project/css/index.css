@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h1{
+  text-align: center;
+
+  -webkit-text-fill-color: transparent; 
+  -webkit-text-stroke:0.5px rgb(176, 228, 363);
+  font-size: 40px;
+  display: inline-block;
+}
+.box{
+  /*margin: center;*/
+  margin-top: 12%; 
+  width: 400px;
+  padding: 40px;
+  background-color: #191919;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow: 5px 5px 20px white;
+  border-style: double;
+
+  
+}
+
+.box input{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  margin: 20px auto;
+  padding: 14px ;
+  outline:  none;
+  color: white;
+  border-radius: 24px;
+  transition:0.25s;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border: 2px solid #3498db;
+    width: 200px;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+  transition: 0.5s;
+}
+
+.box input[type ="submit"]{
+  width: 150px;
+  border: 2px solid #3498db;
+
+}
+
+.box input[type ="submit"]:hover{
+  background: #2ecc71;
+  transition: 0.5s;
+}
